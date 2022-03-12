@@ -308,17 +308,17 @@ section {
 .about .row .progress .bar-3-3 span {
   width: 80%;
 }
-.portfolio .box-container {
+.projects .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 2rem;
 }
-.portfolio .box-container a{
+.projects .box-container a{
   width: 0;
   height: 0;
 
 }
-.portfolio .box-container .box {
+.projects .box-container .box {
   height: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -327,13 +327,13 @@ section {
   border: 1rem solid transparent;
 }
 
-.portfolio .box-container .box img {
+.projects .box-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   cursor: pointer;
 }
-.portfolio .box-container .box .content {
+.projects .box-container .box .content {
   position: absolute;
   top: 0;
   left: 0;
@@ -344,11 +344,11 @@ section {
   transform: scale(0);
   background: var(--bg-color);
 }
-.portfolio .box-container .box:hover .content {
+.projects .box-container .box:hover .content {
   transform: scale(1);
 }
 
-.portfolio .box-container .box .content h3 {
+.projects .box-container .box .content h3 {
   font-size: 2.5rem;
   color: var(--black);
   text-transform: uppercase;
@@ -357,7 +357,7 @@ section {
   transition-delay: 0.3rem;
 }
 
-.portfolio .box-container .box:hover .content h3 {
+.projects .box-container .box:hover .content h3 {
   transform: translateY(0rem);
   opacity: 1;
 }
